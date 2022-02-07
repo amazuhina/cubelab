@@ -5,9 +5,9 @@ const CardItemStl = styled.div`
   padding: 10px;
   border: 1px solid #aeaeae;
   border-radius: 15px;
-  width: 387px;    
-  height: 300px;
-  margin: 15px;
+  width: 350px;    
+  height: 280px;
+  margin: 30px;
   background-color: #fff;
 `
 
@@ -18,11 +18,14 @@ const CardHeader = styled.div`
 
 const PhotoContainerStl = styled.img`
   width: 60%;
+  margin: 0 auto;
+  display: flex;
 `
 
 const TitleStl = styled.h2`
   font-size: 18px;
   font-weight: 400;
+  text-align: center;
 `
 
 const DescriptionStl = styled.p`
@@ -40,6 +43,11 @@ const CardBtnStl = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  transition: 0.4s;
+  &:hover {
+    background-color: #e5e5e5;
+  }
 `
 
 

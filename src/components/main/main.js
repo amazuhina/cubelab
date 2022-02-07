@@ -1,5 +1,4 @@
 import * as VoxImplant from "voximplant-websdk";
-import {CardItem} from "./cards/card-item";
 import {CardSection} from "./cards/cards-section";
 
 
@@ -30,7 +29,6 @@ export const Main = () => {
 
     return (
         <>
-
             <CardSection/>
         </>
     )

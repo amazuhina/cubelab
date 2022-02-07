@@ -4,9 +4,9 @@ import styled from "styled-components";
 
 
 const CardSectionStl = styled.div`
-  
+  padding-top: 50px;
   display: flex;
-  height: 80vh;
+  height: 88vh;
 `
 
 

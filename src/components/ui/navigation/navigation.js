@@ -1,12 +1,23 @@
 import {BtnNav} from "./btn-nav";
+import {arrayBtnNav} from "../../../model";
+import styled from "styled-components";
 
 
-const Navigation = () => {
+const NavigationStl = styled.div`
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+`
+
+
+export const Navigation = () => {
     return (
-        <>
+
+        <NavigationStl>
             {
-                arrayBtnNav.map(i => <BtnNav key={i.id} title={i.title}/>)
+                arrayBtnNav.map(i => <BtnNav title={i}/>)
             }
-        </>
+        </NavigationStl>
     )
 }
